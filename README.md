@@ -106,3 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Jan.ai](https://jan.ai) for local LLM capabilities
 - [PyAutoGUI](https://pyautogui.readthedocs.io/) for automation
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for text recognition # bujji
+# bujji
