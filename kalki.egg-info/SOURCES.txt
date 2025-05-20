@@ -1,0 +1,10 @@
+README.md
+setup.py
+kalki/__init__.py
+kalki/main.py
+kalki.egg-info/PKG-INFO
+kalki.egg-info/SOURCES.txt
+kalki.egg-info/dependency_links.txt
+kalki.egg-info/entry_points.txt
+kalki.egg-info/requires.txt
+kalki.egg-info/top_level.txt

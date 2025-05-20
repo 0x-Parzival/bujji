@@ -1,0 +1,40 @@
+# Kalki AI Assistant Configuration
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  allowed_hosts: ["*"]
+
+window:
+  title: "Kalki Assistant"
+  position: [100, 100]
+  size: [800, 600]
+  always_on_top: true
+
+model:
+  default: "mistral"
+  fallback: "llama2"
+  temperature: 0.7
+  max_tokens: 2000
+
+system:
+  log_level: "INFO"
+  log_file: "logs/kalki.log"
+  plugins_enabled: true
+  plugins_directory: "plugins"
+
+ui:
+  theme: "dark"
+  show_system_tray: true
+  minimize_to_tray: true
+
+voice:
+  enabled: false
+  input_device: "default"
+  output_device: "default"
+  wake_word: "kalki"
+
+security:
+  api_key_required: true
+  allowed_hosts: ["localhost"]
+  max_requests_per_minute: 60 
